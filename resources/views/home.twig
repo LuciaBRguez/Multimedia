@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebMultimedia</title>
+    <link rel="stylesheet" href="{{ base_url() }}/css/style.css">
+    <link rel="stylesheet" href="{{ base_url() }}/css/grid.css">
+</head>
+
+<body>
+{% include 'header.twig' %}
+
+<div class="container">
+    {%  block walking_dead %}{% endblock %}
+    {%  block breaking_bad %}{% endblock %}
+    {%  block orange_new_black %}{% endblock %}
+</div>
+
+{% include 'footer.twig' %}
+</body>
+</html>

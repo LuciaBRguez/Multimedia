@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Optima, sans-serif;
+    background-color: #333333;
+}
+
+header, footer {
+    background-color: #111111;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+header div{
+    display: inline-block;
+    position: center;
+    padding: 1%;
+}
+
+footer div {
+    display: inline-block;
+    position: center;
+    padding: 3%;
+    font-size: 0.75em;
+    font-style: oblique;
+    color: white;
+}
+
+header div a img {
+    width: 8%;
+    height: 8%;
+}
+
+.container, .container-video {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}

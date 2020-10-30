@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebMultimedia</title>
+    <link rel="stylesheet" href="{{ base_url() }}/css/style.css">
+    <link rel="stylesheet" href="{{ base_url() }}/css/flex.css">
+</head>
+
+<body>
+{% include 'header.twig' %}
+
+<div class="container">
+    {%  block galeria %}{% endblock %}
+</div>
+
+<div class="container-video">
+    {%  block video %}{% endblock %}
+</div>
+
+{% include 'footer.twig' %}
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="{{ base_url() }}/javascript/zoom.js"></script>
+<script src="{{ base_url() }}/javascript/add-trailer.js"></script>
+</body>
+</html>

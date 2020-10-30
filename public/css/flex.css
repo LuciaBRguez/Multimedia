@@ -1,0 +1,47 @@
+.container, .container-video {
+    background-color: #1B1B1B;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container div {
+    position: relative;
+    text-align: center;
+    transition: .5s ease;
+}
+
+.container div:hover{
+    opacity: .4;
+}
+
+.container .image-text {
+    display: none;
+    position: absolute;
+    color: white;
+    top: 2%;
+    left: 2%;
+}
+
+@media (min-width: 1025px) {
+    .no-zoom {
+        height: 200px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .no-zoom {
+        height: 150px;
+    }
+}
+@media (min-width: 375px) and (max-width: 667px) {
+    .no-zoom {
+        height: 120px;
+    }
+}
+
+.zoom {
+    height: 100%;
+    width: 100%;
+}

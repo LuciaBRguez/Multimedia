@@ -1,0 +1,32 @@
+{% extends 'home.twig' %}
+
+{%  block walking_dead %}
+    <div class="serie" id="walking_dead">
+        <img src="{{ base_url() }}/images/walking-dead.jpg" alt="The walking dead">
+        <div class="description">
+            <p>En el despertar del apocalipsis zombi, los supervivientes se aferran a la esperanza de la humanidad y se unen para librar una batalla por su propia supervivencia.</p>
+            <a href="{{ path_for('walking-dead') }}" class="button"><img src="{{ base_url() }}/images/arrow.png" alt="siguiente"></a>
+        </div>
+    </div>
+{% endblock %}
+
+{%  block breaking_bad %}
+    <div class="serie" id="breaking_bad">
+        <img src="{{ base_url() }}/images/breaking-bad.jpg" alt="Breaking bad">
+        <div class="description">
+            <p>Un profesor de química con cáncer terminal se asocia con un exalumno suyo para fabricar y vender metanfetamina a fin de que su familia no pase apuros económicos.</p>
+            <a href="{{ path_for('breaking-bad') }}" class="button"><img src="{{ base_url() }}/images/arrow.png" alt="siguiente"></a>
+        </div>
+    </div>
+{% endblock %}
+
+{%  block orange_new_black %}
+    <div class="serie" id="orange_new_black">
+        <img src="{{ base_url() }}/images/orange-new-black.jpg" alt="Orange is the new black">
+        <div class="description">
+            <p>En esta premiada serie de la creadora de "Weeds", una pudiente neoyorkina acaba en una cárcel para mujeres cuando las consecuencias de un antiguo delito le pasan factura.</p>
+            <a href="{{ path_for('orange-new-black') }}" class="button"><img src="{{ base_url() }}/images/arrow.png" alt="siguiente"></a>
+        </div>
+    </div>
+{% endblock %}
+
